@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
-import { resources, getCategories, getTags } from '@/data/resources'
+import { resources, getCategories, getTags } from '@/data/resources.js'
 
 export const useResourceStore = defineStore('resource', () => {
   // 状态（数据）
